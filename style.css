@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+    border-bottom: 2px grey solid;
+  }
+  .gallery {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .gallery img {
+    flex-basis: 17%;
+    flex-grow: 1;
+    height: 250px;
+    margin: 10px;
+    border: solid black 2px;
+    width: 250px;
+  }
